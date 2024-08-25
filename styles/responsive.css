@@ -1,0 +1,135 @@
+@media screen and (max-width:992px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .header-text-content h1{
+        font-size: 2rem;
+    }
+    .title-primary {
+        font-size: 1.2rem;
+        margin-top: 25px;
+    }
+    .header-image img {
+
+        height: 480px;
+
+   }
+   .team-section {
+    display: block;
+   }
+   .team-img-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px;
+    object-fit: cover;
+}
+.team-img img{
+    
+    height:400px;
+
+}
+.team-description {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+.features-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.features-description{
+    width: 100%;
+    padding: 50px 10px;
+}
+.features-image{
+    width: 100%;
+}
+.features-image button{
+    background-color: #ef5d0e;
+    color: #fff;
+    padding: 35px;
+    border: none;
+    border-radius: 10px;
+    position:static;
+    width: 100%;
+}
+.fact-content-container {
+    display: block;
+}
+.fact-content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+}
+@media screen and (max-width:576px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .header-text-content h1{
+        font-size: 2rem;
+    }
+    .title-primary {
+        font-size: 1.2rem;
+        margin-top: 25px;
+    }
+    .header-image img {
+
+        height: 480px;
+
+   }
+   .team-section {
+    display: block;
+   }
+   .team-img-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px;
+    object-fit: cover;
+}
+.team-img img{
+    
+    height: 200px;
+
+}
+.team-description {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+.features-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.features-description{
+    width: 100%;
+    padding: 50px 10px;
+}
+.features-image{
+    width: 100%;
+}
+.features-image button{
+    background-color: #ef5d0e;
+    color: #fff;
+    padding: 35px;
+    border: none;
+    border-radius: 10px;
+    position:static;
+    width: 100%;
+}
+.fact-content-container {
+    display: block;
+}
+.fact-content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+}
+
